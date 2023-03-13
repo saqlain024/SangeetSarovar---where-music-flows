@@ -1,0 +1,476 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 18px !important;
+    background-color : lightcoral; !important;
+}
+
+
+/*header section*/
+header{
+	display: flex;
+	margin-top:-1rem;
+}
+
+
+/*.........nav section..................*/
+
+.horizontal-list nav{
+	display:inline-flex;
+}
+
+#company-logo{
+	width: 12rem;
+	height: 7rem;
+	margin-right: 4rem;
+}
+
+.horizontal-list a{
+	text-decoration:none;
+	color: black;
+}
+
+.horizontal-list a:hover{
+	text-decoration:none;
+	color: red;
+}
+
+.horizontal-list form{
+	display:inline-flex;
+	margin-left: 36rem;
+}
+
+#profile-pic{
+	border-radius:50%;
+	height: 2.7rem;
+	width: 2.7rem;
+}
+.horizontal-list .option{
+	font-size: 18px;
+	letter-spacing: .02rem;
+	font-weight: 400;
+}
+
+
+/*-----------------content--------------------------------------------*/
+
+/*---------------main------------------------*/
+main{
+	display: inline-flex;
+	margin-top: 3rem;
+	margin-left:2%;
+	width:70%;
+	vertical-align: top;
+	spa
+}
+
+main {
+  width: 70%;
+  display: inline-block;
+}
+
+/*-------div1(3 cards )-----------*/
+
+#first-cards div{
+	display: inline-flex;
+	margin-right: 2rem;
+	/*transition: all 2s;*/
+}
+
+#first-cards a img:hover{
+	width:270px;
+	height: 270px; 
+	box-shadow: 20px 20px 20px  black;
+}
+
+#first-cards a img{
+	box-shadow: 10px  15px 20px black;
+}
+
+
+
+/*-------div2 Latest Release-----------*/
+
+
+#latest-release div{
+	display: inline-block;
+	flex-wrap: wrap;
+	margin-right: 6.3rem;
+	margin-left: 2rem;
+}
+
+ #latest-release .song-name{
+	font-size: 22px;
+	text-transform: capitalize;
+	font-weight: 480;
+	margin-bottom: 2px;
+}
+
+#latest-release a img{
+	width:6.7rem;
+	height:6.7rem;
+	margin-bottom: 1.1rem;
+	box-shadow: 5px  5px 5px black;
+
+}
+
+ #latest-release .song-date{
+	color: darkslategrey;
+	font-size: 12px;
+	font-weight: 350;
+}
+
+/*-------div3 Popular Playlists-----------*/
+
+#popular-playlists {
+	display: inline-flex;
+}
+
+#popular-playlists div img{
+	width:7.4rem;
+	height:7.4rem;
+	border-radius: 50%;
+	margin-right:1rem;
+}
+
+#popular-playlists div p{
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	font-family: sans-serif;
+
+}
+
+#popular-playlists div img:hover{
+	width:7.9rem;
+	height:7.9rem;
+	border-radius: 50%;
+	margin-right:1rem;
+	box-shadow: 8px 8px 8px black;
+
+}
+
+
+
+/*-------div4 station-----------*/
+
+#station {
+	display:inline-flex;
+	box-shadow:6px 6px 6px 6px lightslategrey;
+}
+
+
+#station div img{
+	width:6.5rem;
+	height:6.5rem;
+	border-radius: 50%;
+	margin-right:1.4rem;
+	box-shadow: 10px 10px 10px lightslategrey;
+	margin-top: 10px;
+}
+
+#station div p{
+	margin-top: 0.8rem;
+	margin-left: 2rem;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+
+}
+
+#station div img:hover{
+	width:7rem;
+	height:7rem;
+	border-radius: 50%;
+	margin-right:1rem;
+	box-shadow: 8px 8px 8px black;
+
+}
+
+/*-------div5 electronic-----------*/
+
+#electronic{
+	display: inline-flex;
+}
+
+#electronic div img{
+	width:250px;
+	height:144px;
+	margin-right: 1rem;
+	position: relative;
+	box-shadow: 5px 5px 5px black;
+}
+
+#electronic div img:hover{
+	width:310px;
+	height:179px;
+	margin-right: 0.5rem;
+	box-shadow: 10px 10px 10px black;
+}
+
+#electronic div p{
+	position: absolute;
+	margin-top: 0.8rem;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: 550;
+	text-align: center;
+	margin-top: -5.5rem;
+	margin-left: 5rem;
+	color: white;
+}
+
+
+
+/*-------div6 Latest English-----------*/
+
+#latest-english{
+	display:inline-flex;
+}
+
+#latest-english div p{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#latest-english div img{
+	width:150px;
+	height:150px;
+	margin-right: 0.5rem;
+}
+
+ #latest-english .song-name{
+	font-size: 22px;
+	text-transform: capitalize;
+	font-weight: 480;
+	margin-bottom: 2px;
+	margin-top: 5px;
+}
+
+#latest-english a img{
+	width:6.7rem;
+	height:6.7rem;
+	margin-bottom: 1.1rem;
+	box-shadow: 5px  5px 5px black;
+	margin-right: 1.2rem;
+
+}
+
+ #latest-english .song-date{
+	color: darkslategrey;
+	font-size: 10px;
+	font-weight: 350;
+}
+
+/*-------div7 latest-hindi-----------*/
+
+#latest-hindi{
+	display:inline-flex;
+}
+
+#latest-hindi div p{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#latest-hindi div img{
+	width:150px;
+	height:150px;
+	margin-right: 0.5rem;
+}
+
+ #latest-hindi .song-name{
+	font-size: 22px;
+	text-transform: capitalize;
+	font-weight: 480;
+	margin-bottom: 2px;
+	margin-top: 5px;
+}
+
+#latest-hindi a img{
+	width:6.7rem;
+	height:6.7rem;
+	margin-bottom: 1.1rem;
+	box-shadow: 5px  5px 5px black;
+	margin-right: 1.2rem;
+
+}
+
+ #latest-hindi .song-date{
+	color: darkslategrey;
+	font-size: 10px;
+	font-weight: 350;
+}
+
+
+
+/*------------------------------- aside  section----------------------------------------*/
+
+#content #aside{
+	position: relative;
+	justify-content: left;
+}
+#aside{
+  width: 27%;
+  float: right;
+  font-style: italic;
+  margin: 0;
+  margin-top: -119rem;
+  box-shadow:0px 0px 5px 0px black;
+
+}
+
+#aside-body div img{
+	width:55px;
+	height:55px;
+	margin: 0;
+	margin-top: -1.5rem;
+	border-radius: 25%;
+}
+
+#aside-body div{
+	display: inline-block;
+	flex-wrap: wrap;
+	margin-bottom: .9rem;
+
+}
+
+#aside-body .song-name{
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 480;
+	 margin: 0;
+	margin-left: .3rem;
+}
+
+#aside-body .song-date{
+	color: darkslategrey;
+	font-size: 11px;
+	font-weight: 350;
+	 margin: 0;
+	margin-left: .3rem;
+}
+
+#aside-body .numbering{
+	color: darkslategrey;
+	font-size: 13px;
+	font-weight: 350;
+	margin:.4rem;
+	letter-spacing: .1rem;
+
+}
+#aside-body .heart a{
+	margin-left: 50px;
+}
+
+
+#aside-body .heart a:hover{
+	color: red;
+}
+
+
+
+/*------------------footer--------------------------------*/
+
+#footer{
+	display: inline-flex;
+	width: 206.5vh;
+	height: 20vh;
+	background-color: antiquewhite;
+}
+
+#footer-body{
+	display: inline-flex;
+	margin-top: 2rem;
+	margin-left: 3rem;
+}
+
+#footer-body div img{
+	width: 70px;
+	height: 70px;
+}
+
+#play-logos{
+	margin-top: .7rem;
+}
+
+#play-logos #part-1 a{
+	margin-left: 1rem;
+}
+#play-logos #part-2 a{
+	margin-left: 1.5rem;
+}
+#play-logos #part-3 a{
+	margin-left: 1rem;
+}
+
+#play-logos #part-1{
+	margin-left: 7rem;
+}
+
+#play-logos #part-2{
+	margin-left: 12rem;
+}
+
+#play-logos #part-3{
+	margin-left: 23rem;
+}
+
+#play-logos a:hover{
+	color:red;
+}
+
+
+
+#play-name{
+	margin-top: -4rem;
+	margin-left: 5.5rem;
+}
+#play-name{
+	margin-top: -4rem;
+	margin-left: 5.5rem;
+}
+
+#play-name{
+	margin-top: -4rem;
+	margin-left: 5.5rem;
+}
+
+ #footer-body .song-name{
+	font-size: 22px;
+	text-transform: capitalize;
+	font-weight: 480;
+	margin-bottom: -2px;
+	margin-top: 5px;
+}
+
+
+
+ #footer-body .singer-name{
+	color: darkslategrey;
+	font-size: 13px;
+	font-weight: 350;
+	margin-top: -5px;
+	margin-left: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*classes*/
+
+.remove-border{
+	border: none;
+}
+
+
+.title{
+	margin-bottom:1.3rem;
+}
+
